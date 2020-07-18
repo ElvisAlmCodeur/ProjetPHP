@@ -1,0 +1,71 @@
+
+header
+{
+  background: #0e0a94;
+  height: 200px;
+  width: 1570px;
+  
+
+
+}
+#conteneur
+{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+flex-wrap: wrap;
+}
+
+
+footer
+{
+    text-align: center;
+  border: 5px solid #0e0a94;
+  background-color: #0e0a94;
+  position: absolute;
+  bottom: -40px;
+  left: 0px;
+  right: 0px;
+    font-size: 1.8em;
+}
+.nomu
+{
+  text-align: center;
+  font: 3em "Trebuchet MS",Arial,sans-serif ;
+
+}
+.element
+{
+  background: white;
+  border : 1px solid white ;
+}
+.image
+{
+  margin-top: -10px;
+}
+a:active
+{
+background-color: #FFCC66;
+}
+a:hover
+{
+background-color: #0985a0;
+}
+.logo
+{
+  margin-top: -205px;
+  margin-left: 0px;
+
+}
+.reme
+{
+  text-align: center;
+  margin-top: 105px;
+  font-size: 1.8em;
+  color: green;
+}
+h2
+{
+  font-size: 1.8em;
+  font: 3em "Trebuchet MS",Arial,sans-serif ;
+}
