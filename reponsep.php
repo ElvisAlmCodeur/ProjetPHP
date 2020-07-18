@@ -1,18 +1,5 @@
 
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST")
-	{
-        $nom=c_POST['lastname'];
-		$prenom=$_POST['firstname'];
-		$sexe=$_POST['sexe'];
-		$dateNaissance=$_POST['day'];
-		$lieuNaissance=$_POST['lieu'];
-		$filiere=$_POST['filière'];
-		$nationalite=$_POST['nationalite'];
-		$email=$_POST['email'];
-		$mention=$_POST['mention'];
-		$confession=$_POST['confession'];
-		$ecoleOrigine=$_POST['ecole'];
 
 try
 	{
@@ -43,11 +30,10 @@ try
 
 
 
+
 	));
-
-	}
-header("Location:remerciement.html");
-
+	
+		$message=' Félicitation!!!Votre inscption a été bien enregistrée';
   ?>
 
  
