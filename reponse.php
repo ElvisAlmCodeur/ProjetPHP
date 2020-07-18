@@ -1,3 +1,4 @@
+
 <?php
 try
 	{
@@ -30,5 +31,9 @@ try
 
 
 	));
+	header("Location:remerciement.html");
+	
 
   ?>
+
+ 
