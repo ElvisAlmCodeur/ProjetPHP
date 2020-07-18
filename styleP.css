@@ -1,0 +1,16 @@
+#conteneur
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    background: grey;
+    width: 300px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.star
+{
+    color: red;
+}

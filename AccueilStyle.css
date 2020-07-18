@@ -1,0 +1,96 @@
+/*#navigation {
+  width: 200px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}#navigation li {
+  display: inline-block;
+  background: #c00 ;
+  color: #fff ;
+  border: 1px solid #600 ;
+  margin-bottom: 1px ;
+}#navigation li a {
+  display: block; 
+  background: #c00 ;
+  color: #fff ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+  padding: 4px 0 ;
+}
+#navigation li a:hover, 
+#navigation li a:focus,
+#navigation li a:active {
+  background: #900 ;
+  text-decoration: underline ;
+}*/
+
+#conteneur
+{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+
+header
+{
+  background: #0e0a94;
+  height: 200px;
+  width: 1570px;
+  
+
+
+}
+
+footer
+{
+    text-align: center;
+  border: 5px solid #0e0a94;
+  background-color: #0e0a94;
+  position: absolute;
+  bottom: -500px;
+  left: 0px;
+  right: 0px;
+    font-size: 1.8em;
+}
+.nomu
+{
+  text-align: center;
+  font: 3em "Trebuchet MS",Arial,sans-serif ;
+
+}
+.element
+{
+  background: white;
+  border : 1px solid white ;
+}
+.image
+{
+  margin-top: -10px;
+}
+a:active
+{
+background-color: #FFCC66;
+}
+a:hover
+{
+background-color: #0985a0;
+}
+.ac
+{
+  text-align: center;
+}
+.ins
+{
+   border: 5px solid #0e0a94;
+  background-color: #0e0a94;
+  color: white;
+}
+
+.logo
+{
+  margin-top: -205px;
+  margin-left: 0px;
+
+}
